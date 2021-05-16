@@ -1,4 +1,4 @@
 node_modules
 .env
 deployedADDRESS
-.next/
+.next
