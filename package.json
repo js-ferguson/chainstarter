@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
+    "compile": "node -r dotenv/config ethereum/compile.js",
     "deploy": "node -r dotenv/config ethereum/deploy.js",
     "dev": "node server.js"
   },
